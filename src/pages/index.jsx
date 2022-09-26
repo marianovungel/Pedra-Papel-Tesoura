@@ -125,7 +125,7 @@ export default function Index() {
                     <i className="fa-solid fa-scissors itemCenter"></i>
                 </div>
                 <div className="escolhido">
-                    {valorComputador===0 && (<i className='itemCenterEscolha'>Faça a Sua Escolha</i>)}
+                    {valorComputador===0 && (<i className='itemCenterEscolha'>Escolha do Computador</i>)}
                     {valorComputador===1 && (<i className='fa-solid fa-gem itemCenterEscolha'></i>)}
                     {valorComputador===2 && (<i className='fa-solid fa-scroll itemCenterEscolha'></i>)}
                     {valorComputador===3 && (<i className='fa-solid fa-scissors itemCenterEscolha'></i>)}
